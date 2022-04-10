@@ -1,5 +1,6 @@
 {
-  "miniprogramRoot": "dist/",
+  "miniprogramRoot": "client/dist/",
+  "cloudfunctionRoot": "cloud/",
   "projectname": "NineSongsGarden",
   "description": "",
   "appid": "wx5b08f4d84500fff6",
@@ -42,5 +43,6 @@
     "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {}
 }

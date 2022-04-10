@@ -1,4 +1,5 @@
 dist/
+cloud/
 deploy_versions/
 .temp/
 .rn_temp/
