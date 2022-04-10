@@ -8,6 +8,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "taro/react",
+    // prettier放到最后，会覆盖之前的，避免prettier和eslint冲突
     "prettier",
   ],
   parserOptions: {
@@ -28,6 +29,7 @@ module.exports = {
   },
   settings: {
     react: {
+      // 指定react版本
       version: "detect",
     },
   },
