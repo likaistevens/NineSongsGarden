@@ -4,7 +4,7 @@ import "./index.less";
 const Index: React.FC = () => {
   return (
     <View className="index">
-      <Text>你好</Text>
+      <Text>欢迎使用</Text>
     </View>
   );
 };
