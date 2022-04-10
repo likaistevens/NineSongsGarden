@@ -1,20 +1,24 @@
-import { Component } from 'react'
-import './app.less'
+import "./app.less";
 
-class App extends Component {
+// class App extends Component {
 
-  componentDidMount () {}
+//   componentDidMount () {}
 
-  componentDidShow () {}
+//   componentDidShow () {}
 
-  componentDidHide () {}
+//   componentDidHide () {}
 
-  componentDidCatchError () {}
+//   componentDidCatchError () {}
 
-  // this.props.children 是将要会渲染的页面
-  render () {
-    return this.props.children
-  }
-}
+//   // this.props.children 是将要会渲染的页面
+//   render () {
+//     return this.props.children
+//   }
+// }
+const App: React.FC<{ children: React.ReactElement<any, any> | null }> = ({
+  children,
+}) => {
+  return children;
+};
 
-export default App
+export default App;
