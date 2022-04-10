@@ -26,6 +26,7 @@ module.exports = {
     "prettier/prettier": 2,
     "@typescript-eslint/no-shadow": 2,
     "react/self-closing-comp": 2,
+    "import/no-commonjs": "off",
   },
   settings: {
     react: {
